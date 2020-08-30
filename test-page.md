@@ -18,7 +18,7 @@ description: This page is used for markdown test.
 
 <u>underline</u>
 
-:smile:
+here are my footnote1[^1] and footnote2[^2]
 
 ### Header1
 
@@ -74,7 +74,9 @@ var fun = function lang(l) {
 
 ### Header7
 
-$$\LaTeX$$
+$$
+\LaTeX
+$$
 
 ### Header8
 
@@ -83,14 +85,27 @@ $$\LaTeX$$
 
 ### Header9
 
-Press <kbd>Ctrl</kbd>+<kbd>O</kbd> to open a markdown file.
+Press <kbd>Ctrl</kbd>+<kbd>O</kbd> to open a <span style="font-size:24px; background:black; color:white">markdown</span> file.
 
 ### Header10
 
+<iframe height=560 src="https://player.bilibili.com/player.html?aid=328966357&bvid=BV1hA411v7qm&cid=220711057&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+### Header11
 <details>
-
-- Email: chinaheyu@outlook.com
-- QQ: 810130242
-- Mobile: 17371060825
-
+    <summary>Contact</summary>
+    <p>
+        Email: chinaheyu@outlook.com
+    </p>
+    <p>
+        QQ: 810130242
+    </p>
+    <p>
+        Mobile: 17371060825
+    </p>
 </details>
+
+### Header13
+
+[^1]:footnote1
+[^2]:footnote2
