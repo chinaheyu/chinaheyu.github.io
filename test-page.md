@@ -18,8 +18,6 @@ description: This page is used for markdown test.
 
 <u>underline</u>
 
-here are my footnote1[^1] and footnote2[^2]
-
 ### Header1
 
 > This is a blockquote following a header.
@@ -104,8 +102,3 @@ Press <kbd>Ctrl</kbd>+<kbd>O</kbd> to open a <span style="font-size:24px; backgr
         Mobile: 17371060825
     </p>
 </details>
-
-### Header13
-
-[^1]:footnote1
-[^2]:footnote2
